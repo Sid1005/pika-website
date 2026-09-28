@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
-const sectionIds = ['top', 'story', 'journey', 'projects', 'beyond', 'contact'];
+const sectionIds = ['top', 'journey', 'projects', 'beyond', 'contact'];
 
 const milestones = [
   ['2026 — now', 'MSc Motorsport Engineering', 'Oxford Brookes University', 'Deepening my focus on vehicle performance, thermal management, powertrain, and drivetrain systems.', 'yellow'],
@@ -43,7 +43,7 @@ export default function Home() {
 
       <nav className="dock" aria-label="Page sections">
         {([['top', 'Start'], ['journey', 'Journey'], ['projects', 'Builds'], ['beyond', 'Beyond']] as const).map(([id, label]) => (
-          <a key={id} href={`#${id}`} className={active === id || (id === 'top' && active === 'story') ? 'active' : ''}>{label}</a>
+          <a key={id} href={`#${id}`} className={active === id ? 'active' : ''}>{label}</a>
         ))}
       </nav>
 
@@ -68,20 +68,7 @@ export default function Home() {
           </div>
           <div className="race-badge"><strong>01</strong><span>Engineer<br />&amp; racer</span></div>
         </div>
-        <a className="scroll-cue" href="#story"><span>Scroll to start</span><b aria-hidden="true">↓</b></a>
-      </section>
-
-      <section className="manifesto snap-section" id="story">
-        <div className="manifesto-kicker">My favourite question is</div>
-        <h2>“How can we make it <em>better?</em>”</h2>
-        <div className="manifesto-grid">
-          <p>I like the whole journey: understanding the problem, sketching the system, modelling it, making it, and learning from what happens on the track.</p>
-          <div className="mini-stats" aria-label="Highlights">
-            <div><strong>3</strong><span>patent applications</span></div>
-            <div><strong>1st</strong><span>EV business plan</span></div>
-            <div><strong>4th</strong><span>overall, EV category</span></div>
-          </div>
-        </div>
+        <a className="scroll-cue" href="#journey"><span>Scroll to start</span><b aria-hidden="true">↓</b></a>
       </section>
 
       <section className="journey snap-section" id="journey">
