@@ -17,4 +17,5 @@ next-env.d.ts
 # misc
 .DS_Store
 *.pem
+WhatsApp Image*.jpeg
 npm-debug.log*
