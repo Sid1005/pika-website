@@ -1,0 +1,20 @@
+# dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+
+# local environment variables and secrets
+.env*
+
+# deployment and generated files
+.vercel
+/dist/
+/.wrangler/
+next-env.d.ts
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
