@@ -3,7 +3,7 @@
 :root {
   color-scheme: dark;
   background: #000;
-  color: #fff;
+  color: #22d3ee;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +29,7 @@ body {
 
 h1 {
   margin: 0;
-  color: #fff;
+  color: #22d3ee;
   font-size: clamp(2rem, 7vw, 5rem);
   font-weight: 700;
   letter-spacing: -0.04em;
