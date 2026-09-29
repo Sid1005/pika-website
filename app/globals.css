@@ -235,7 +235,7 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
 .contact-actions a { display: flex; align-items: center; justify-content: space-between; gap: 2rem; min-width: 13rem; border: 2px solid var(--ink); border-radius: 999px; padding: .9rem 1.1rem; background: var(--cream); color: var(--ink); font-weight: 900; box-shadow: 5px 5px 0 var(--ink); transition: .2s; }
 .contact-actions a:first-child { background: var(--yellow); color: var(--ink); }
 .contact-actions a:hover { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--ink); }
-.signature { width: min(18rem, 60vw); height: auto; margin: 2.5rem 0 -1rem; mix-blend-mode: multiply; }
+.signature { width: min(27rem, 90vw); height: auto; margin: 2.5rem 0 -1rem; mix-blend-mode: multiply; }
 .contact footer { display: flex; width: 100%; justify-content: space-between; margin-top: auto; padding-top: 3rem; font-size: .78rem; font-weight: 800; text-transform: uppercase; }
 
 @media (max-width: 900px) {
