@@ -213,7 +213,7 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
 .fabrication-photo img { object-fit: cover; object-position: 50% 48%; }
 .fabrication-photo > span { position: absolute; right: 1rem; bottom: 1rem; padding: .75rem 1rem; border: 2px solid var(--ink); border-radius: 999px; background: var(--yellow); color: var(--ink); font-size: .75rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
 .fkdc-poster { position: absolute; z-index: 4; right: clamp(.5rem, 2vw, 2rem); bottom: clamp(2rem, 4vw, 4rem); width: min(26vw, 19rem); aspect-ratio: 1; overflow: hidden; border: 6px solid var(--cream); border-radius: 50%; box-shadow: 12px 12px 0 var(--red); transform: rotate(-6deg); }
-.fkdc-poster img { object-fit: cover; object-position: 50% 69%; transform: scale(1.28); }
+.fkdc-poster img { object-fit: cover; object-position: 50% 84%; transform: scale(1.18); }
 
 .beyond { position: relative; display: grid; grid-template-columns: .9fr 1.1fr; gap: 4rem; align-items: center; padding: clamp(6rem, 9vw, 9rem) clamp(1.2rem, 6vw, 7rem); overflow: hidden; background: var(--yellow); color: var(--ink); }
 .beyond::before { position: absolute; right: -8rem; bottom: -15rem; width: 38rem; aspect-ratio: 1; border: 6rem solid var(--pink); border-radius: 50%; content: ''; opacity: .65; }
