@@ -111,8 +111,8 @@ export default function Home() {
           <p>At the Formula Karting Design Challenge, I became the competition’s first and only female go-kart driver. Racing taught me to stay calm, notice the small signals, and make decisions at speed — habits I carry into every engineering problem.</p>
         </div>
         <div className="track-photo image-card">
-          <Image src="/images/priyanka-kart.jpg" alt="Priyanka smiling from the driver’s seat of her team’s go-kart" fill sizes="(max-width: 900px) 92vw, 48vw" />
-          <span>Driver’s seat / Formula Karting Design Challenge</span>
+          <Image src="/images/track-day.jpg" alt="Priyanka and her team preparing their kart on the track" fill sizes="(max-width: 900px) 92vw, 48vw" />
+          <span>Race day / Formula Karting Design Challenge</span>
         </div>
         <div className="beyond-note">Curious mind.<br />Steady hands.<br />Fast laps.</div>
       </section>
