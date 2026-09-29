@@ -119,7 +119,7 @@ export default function Home() {
 
       <section className="contact snap-section" id="contact">
         <p className="eyebrow">Let’s make something move</p><h2>Have a problem<br />worth <em>solving?</em></h2>
-        <p className="contact-copy">I’m building my future in motorsport, powertrain, drivetrain, CFD, and vehicle performance. If that overlaps with your world, I’d love to hear from you.</p>
+        <p className="contact-copy">I’m building my future in motorsport, drivetrain, CFD, and vehicle performance. If that overlaps with your world, I’d love to hear from you.</p>
         <div className="contact-actions">
           <a href="mailto:priyanka.ceri@gmail.com">Email me <span>↗</span></a>
           <a href="/Priyanka-Yohanna-Ceri-CV.pdf" download>Download CV <span>↓</span></a>
