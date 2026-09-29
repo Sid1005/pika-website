@@ -205,7 +205,20 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
   background: var(--ink);
   color: var(--cream);
 }
-.workshop::before { position: absolute; right: -6rem; top: -7rem; width: 26rem; height: 26rem; border: 3rem solid var(--cream); border-radius: 50%; content: ''; transform: rotate(25deg); }
+.workshop::before {
+  position: absolute;
+  right: -4rem;
+  top: 1.5rem;
+  width: min(55vw, 42rem);
+  aspect-ratio: 2 / 1;
+  background:
+    radial-gradient(circle at 25% 72%, var(--ink) 0 7%, var(--cream) 7.5% 13%, transparent 13.5%),
+    radial-gradient(circle at 76% 72%, var(--ink) 0 7%, var(--cream) 7.5% 13%, transparent 13.5%),
+    var(--cream);
+  clip-path: polygon(0 56%, 9% 43%, 29% 36%, 41% 14%, 66% 14%, 82% 38%, 95% 45%, 100% 59%, 97% 74%, 87% 77%, 83% 62%, 72% 58%, 66% 75%, 35% 75%, 29% 59%, 17% 62%, 13% 77%, 3% 73%);
+  content: '';
+  opacity: .92;
+}
 .workshop-copy { position: relative; z-index: 3; }
 .workshop-copy .eyebrow.inverse { border-color: var(--workshop-green); background: var(--workshop-green); color: var(--ink); }
 .workshop-copy h2 { margin: 0; color: #e58f88; font-size: clamp(3.5rem, 6.5vw, 6.8rem); letter-spacing: -.09em; line-height: .82; }
@@ -264,7 +277,7 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
   .dock { bottom: .7rem; width: calc(100% - 1.2rem); justify-content: space-between; }
   .dock a { padding: .62rem .55rem; font-size: .68rem; }
   .journey, .team-story, .workshop, .beyond { padding-inline: 1.2rem; }
-  .workshop::before { top: 2.5rem; right: -4rem; width: 18rem; height: 18rem; border-width: 2rem; opacity: .9; }
+  .workshop::before { top: 4rem; right: -6rem; width: 26rem; opacity: .88; }
   .workshop-copy h2 { font-size: clamp(3.2rem, 15vw, 4.8rem); }
   .timeline { grid-template-columns: 1fr; }
   .milestone { min-height: 24rem; }
