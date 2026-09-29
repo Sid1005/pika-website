@@ -16,7 +16,7 @@
   --blue: #72b0ab;
   --pink: #fdc1b4;
   --workshop-yellow: #ffe45e;
-  --workshop-ring: #b9d8a7;
+  --workshop-green: #b9d8a7;
   background: var(--sky);
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
@@ -205,11 +205,12 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
   background: var(--ink);
   color: var(--cream);
 }
-.workshop::before { position: absolute; right: -6rem; top: -7rem; width: 26rem; height: 26rem; border: 3rem solid var(--workshop-ring); border-radius: 50%; content: ''; transform: rotate(25deg); }
+.workshop::before { position: absolute; right: -6rem; top: -7rem; width: 26rem; height: 26rem; border: 3rem solid var(--cream); border-radius: 50%; content: ''; transform: rotate(25deg); }
 .workshop-copy { position: relative; z-index: 3; }
-.workshop-copy h2 { margin: 0; font-size: clamp(3.5rem, 6.5vw, 6.8rem); letter-spacing: -.09em; line-height: .82; }
+.workshop-copy .eyebrow.inverse { border-color: var(--workshop-green); background: var(--workshop-green); color: var(--ink); }
+.workshop-copy h2 { margin: 0; color: var(--pink); font-size: clamp(3.5rem, 6.5vw, 6.8rem); letter-spacing: -.09em; line-height: .82; }
 .workshop-copy h2 em { color: var(--workshop-yellow); }
-.workshop-copy > p:not(.eyebrow) { max-width: 30rem; margin: 2rem 0; font-size: clamp(1rem, 1.6vw, 1.2rem); line-height: 1.55; }
+.workshop-copy > p:not(.eyebrow) { max-width: 30rem; margin: 2rem 0; border: 2px solid var(--workshop-green); border-radius: 1.2rem; padding: .85rem 1rem; background: var(--ink); color: var(--workshop-green); font-size: clamp(1rem, 1.6vw, 1.2rem); line-height: 1.55; }
 .workshop-index { display: inline-block; border-top: 2px solid var(--yellow); padding-top: .8rem; color: var(--yellow); font-size: .75rem; font-weight: 900; letter-spacing: .16em; }
 .fabrication-photo { position: relative; z-index: 2; min-height: min(78vh, 52rem); overflow: hidden; border: 3px solid var(--cream); border-radius: 4rem; box-shadow: 14px 14px 0 var(--blue); transform: rotate(1.5deg); }
 .fabrication-photo img { object-fit: cover; object-position: 50% 48%; }
@@ -221,7 +222,7 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
 .beyond::before { position: absolute; right: -8rem; bottom: -15rem; width: 38rem; aspect-ratio: 1; border: 6rem solid var(--pink); border-radius: 50%; content: ''; opacity: .65; }
 .beyond-copy { position: relative; z-index: 2; }
 .beyond-copy h2 { margin: 0; font-size: clamp(3.6rem, 7.5vw, 7.5rem); letter-spacing: -.08em; line-height: .86; }
-.beyond-copy h2 em { color: var(--red); }
+.beyond-copy h2 em { color: var(--blue); }
 .beyond-copy > p:last-child { max-width: 37rem; margin: 2rem 0 0; font-size: clamp(1rem, 1.5vw, 1.2rem); line-height: 1.55; }
 .track-photo { min-height: min(72vh, 49rem); transform: rotate(1.5deg); }
 .track-photo img { object-position: 50% 88%; }
