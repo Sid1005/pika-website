@@ -269,6 +269,7 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
   .milestone { min-height: 24rem; }
   .team-photo { min-height: 78vw; }
   .fabrication-photo { min-height: 70vh; }
+  .fabrication-photo > span { display: none; }
   .fkdc-poster { right: .4rem; bottom: 2rem; width: 11.5rem; }
   .track-photo { min-height: 62vh; }
   .beyond-note { display: none; }

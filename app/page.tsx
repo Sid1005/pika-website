@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 const sectionIds = ['top', 'journey', 'workshop', 'beyond', 'contact'];
 
 const milestones = [
-  ['2026 — now', 'MSc Motorsport Engineering', 'Oxford Brookes University', 'Deepening my focus on vehicle performance, thermal management, powertrain, and drivetrain systems.', 'yellow'],
+  ['2026 — now', 'MSc Motorsport Engineering', 'Oxford Brookes University', 'Deepening my focus on vehicle performance, fluid dynamics, thermal management, powertrain, and drivetrain systems.', 'yellow'],
   ['Jan — Jul 2026', 'Project Intern', 'Greaves Electric Mobility', 'Used CFD to improve two-wheeler airflow and designed a thermoelectric cooling system for the battery and MCU.', 'blue'],
   ['2023 — 2025', 'PowerTrain Head & Racer', 'Team Karting Manipal', 'Led engine, cooling, and drivetrain work from design through manufacture, assembly, testing, and race-day feedback.', 'red'],
   ['2022 — 2026', 'B.Tech Mechatronics Engineering', 'Manipal Institute of Technology', 'Built a multidisciplinary base across mechanics, electronics, controls, CAD, and analysis.', 'cream'],
@@ -53,7 +53,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Mechatronics × Motorsport</p>
           <h1>I build things <span>that move.</span></h1>
-          <p className="hero-intro">Hi, I’m Priyanka. Motorsport, powertrains, and CFD are the parts of engineering I enjoy most—especially when design, analysis, and hands-on work come together to build a car.</p>
+          <p className="hero-intro">Hi, I’m Priyanka. My interests include motorsport, powertrains, and CFD. I also enjoy the design, analysis, and practical work that goes into building a car.</p>
         </div>
         <div className="hero-visual" aria-label="Priyanka in the Team Karting Manipal go-kart">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="workshop-copy">
           <p className="eyebrow inverse">Where ideas meet steel</p>
           <h2>I like getting<br /><em>my hands<br />dirty.</em></h2>
-          <p>For me, engineering does not stop at the CAD screen. I want to understand how a component is cut, fitted, assembled, tested, and improved in the real world.</p>
+          <p>I enjoy hands-on work. Manufacturing our go-kart in-house gave me practical experience cutting, fitting, assembling, and testing components.</p>
           <span className="workshop-index">03 / MAKE IT REAL</span>
         </div>
         <div className="fabrication-photo">
@@ -107,7 +107,7 @@ export default function Home() {
 
       <section className="beyond snap-section" id="beyond">
         <div className="beyond-copy">
-          <p className="eyebrow">Beyond the CAD screen</p><h2>I don’t just calculate performance. <em>I feel it.</em></h2>
+          <p className="eyebrow">From the driver’s seat</p><h2>First woman on<br /><em>the FKDC grid.</em></h2>
           <p>At the Formula Karting Design Challenge, I became the competition’s first and only female go-kart driver. Racing taught me to stay calm, notice the small signals, and make decisions at speed — habits I carry into every engineering problem.</p>
         </div>
         <div className="track-photo image-card">
