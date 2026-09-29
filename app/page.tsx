@@ -53,7 +53,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Mechatronics × Motorsport</p>
           <h1>I build things <span>that move.</span></h1>
-          <p className="hero-intro">I’m Priyanka — a powertrain engineer, CFD enthusiast, and go-kart racer turning ambitious ideas into machines you can feel.</p>
+          <p className="hero-intro">I’m Priyanka — an MSc Motorsport Engineering student at Oxford Brookes University, passionate about powertrains, CFD, and turning analysis into real-world performance.</p>
         </div>
         <div className="hero-visual" aria-label="Priyanka in the Team Karting Manipal go-kart">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
