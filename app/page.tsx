@@ -53,7 +53,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Mechatronics × Motorsport</p>
           <h1>I build things <span>that move.</span></h1>
-          <p className="hero-intro">Hi, I’m Priyanka. I love motorsport, building cars, and figuring out what makes them faster. I’m especially into powertrains and CFD—turning analysis into real-world performance.</p>
+          <p className="hero-intro">Hi, I’m Priyanka. Motorsport, powertrains, and CFD are the parts of engineering I enjoy most—especially when design, analysis, and hands-on work come together to build a car.</p>
         </div>
         <div className="hero-visual" aria-label="Priyanka in the Team Karting Manipal go-kart">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
       <section className="journey snap-section" id="journey">
-        <div className="section-heading"><p className="eyebrow inverse">The route so far</p><h2>Learning by<br /><em>doing.</em></h2></div>
+        <div className="section-heading"><p className="eyebrow inverse">Experience &amp; education</p><h2>The road<br /><em>so far.</em></h2></div>
         <div className="timeline">
           {milestones.map(([years, role, place, note, color], index) => (
             <article className={`milestone ${color}`} key={role}>
@@ -92,7 +92,7 @@ export default function Home() {
       <section className="workshop snap-section" id="workshop">
         <div className="workshop-copy">
           <p className="eyebrow inverse">Where ideas meet steel</p>
-          <h2>Hands on.<br /><em>Always.</em></h2>
+          <h2>I like getting<br /><em>my hands<br />dirty.</em></h2>
           <p>For me, engineering does not stop at the CAD screen. I want to understand how a component is cut, fitted, assembled, tested, and improved in the real world.</p>
           <span className="workshop-index">03 / MAKE IT REAL</span>
         </div>

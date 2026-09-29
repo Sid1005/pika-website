@@ -15,6 +15,7 @@
   --red: #f0a04b;
   --blue: #72b0ab;
   --pink: #fdc1b4;
+  --workshop-yellow: #ffe45e;
   background: var(--sky);
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
@@ -203,10 +204,10 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
   background: var(--ink);
   color: var(--cream);
 }
-.workshop::before { position: absolute; right: -6rem; top: -7rem; width: 26rem; height: 26rem; border: 3rem solid var(--yellow); border-radius: 50%; content: ''; transform: rotate(25deg); }
+.workshop::before { position: absolute; right: -6rem; top: -7rem; width: 26rem; height: 26rem; border: 3rem solid var(--workshop-yellow); border-radius: 50%; content: ''; transform: rotate(25deg); }
 .workshop-copy { position: relative; z-index: 3; }
-.workshop-copy h2 { margin: 0; font-size: clamp(4.4rem, 8vw, 8rem); letter-spacing: -.09em; line-height: .82; }
-.workshop-copy h2 em { color: var(--yellow); }
+.workshop-copy h2 { margin: 0; font-size: clamp(3.5rem, 6.5vw, 6.8rem); letter-spacing: -.09em; line-height: .82; }
+.workshop-copy h2 em { color: var(--workshop-yellow); }
 .workshop-copy > p:not(.eyebrow) { max-width: 30rem; margin: 2rem 0; font-size: clamp(1rem, 1.6vw, 1.2rem); line-height: 1.55; }
 .workshop-index { display: inline-block; border-top: 2px solid var(--yellow); padding-top: .8rem; color: var(--yellow); font-size: .75rem; font-weight: 900; letter-spacing: .16em; }
 .fabrication-photo { position: relative; z-index: 2; min-height: min(78vh, 52rem); overflow: hidden; border: 3px solid var(--cream); border-radius: 4rem; box-shadow: 14px 14px 0 var(--blue); transform: rotate(1.5deg); }
@@ -261,6 +262,8 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
   .dock { bottom: .7rem; width: calc(100% - 1.2rem); justify-content: space-between; }
   .dock a { padding: .62rem .55rem; font-size: .68rem; }
   .journey, .team-story, .workshop, .beyond { padding-inline: 1.2rem; }
+  .workshop::before { top: 2.5rem; right: -4rem; width: 18rem; height: 18rem; border-width: 2rem; opacity: .9; }
+  .workshop-copy h2 { font-size: clamp(3.2rem, 15vw, 4.8rem); }
   .timeline { grid-template-columns: 1fr; }
   .milestone { min-height: 24rem; }
   .team-photo { min-height: 78vw; }
