@@ -101,7 +101,7 @@ export default function Home() {
           <span>Fabrication / Manipal</span>
         </div>
         <div className="fkdc-poster">
-          <Image src="/images/powertrain-ceri-24.png" alt="Priyanka wearing her Powertrain Ceri 24 team shirt" fill sizes="(max-width: 900px) 42vw, 19vw" />
+          <Image src="/images/powertrain-ceri-24.jpg" alt="Priyanka wearing her Powertrain Ceri 24 team shirt" fill sizes="(max-width: 900px) 42vw, 19vw" />
         </div>
       </section>
 
