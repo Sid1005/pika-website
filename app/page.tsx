@@ -53,7 +53,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Mechatronics × Motorsport</p>
           <h1>I build things <span>that move.</span></h1>
-          <p className="hero-intro">Hi, I’m Priyanka, an MSc Motorsport Engineering student passionate about powertrains, CFD, and vehicle performance. I enjoy bringing analysis, design, and practical engineering together to develop cars that perform in the real world.</p>
+          <p className="hero-intro">Hi, I’m Priyanka, an MSc Motorsport Engineering student passionate about powertrains and aerodynamics. I enjoy bringing analysis, design, and practical engineering together to develop cars for the demands of racing.</p>
         </div>
         <div className="hero-visual" aria-label="Priyanka in the Team Karting Manipal go-kart">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
@@ -122,7 +122,7 @@ export default function Home() {
         <p className="contact-copy">I’m building my future in motorsport, drivetrain, CFD, and vehicle performance. If that overlaps with your world, I’d love to hear from you.</p>
         <div className="contact-actions">
           <a href="mailto:priyanka.ceri@gmail.com">Email me <span>↗</span></a>
-          <a href="/Priyanka-Yohanna-Ceri-CV.pdf" download>Download CV <span>↓</span></a>
+          <a href="tel:+447404244217">Call me <span>+44 7404 244217</span></a>
         </div>
         <Image className="signature" src="/images/signature.jpg" alt="Priyanka’s signature" width={500} height={376} />
         <footer><span>Priyanka Yohanna Ceri</span><span>Oxford, UK · 2026</span></footer>
