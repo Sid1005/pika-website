@@ -222,7 +222,7 @@ h1 span, h2 em { color: var(--blue); font-family: Georgia, 'Times New Roman', se
 .beyond-copy h2 em { color: var(--red); }
 .beyond-copy > p:last-child { max-width: 37rem; margin: 2rem 0 0; font-size: clamp(1rem, 1.5vw, 1.2rem); line-height: 1.55; }
 .track-photo { min-height: min(72vh, 49rem); transform: rotate(1.5deg); }
-.track-photo img { object-position: 50% 72%; }
+.track-photo img { object-position: 50% 88%; }
 .beyond-note { position: absolute; z-index: 3; right: clamp(1rem, 3vw, 3rem); bottom: 2.5rem; padding: 1.2rem; border: 2px solid var(--ink); border-radius: 1.4rem; background: var(--sky); color: var(--ink); font-size: 1.05rem; font-weight: 900; line-height: 1.1; transform: rotate(-5deg); }
 
 .contact { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 7rem 1.2rem 2rem; background: var(--red); color: var(--ink); text-align: center; }
